@@ -21,7 +21,7 @@ solution = Solution()
 print(solution.findSubsequences([4,6,7,7]))
 
 
-# #  (Or)
+#  (Or)
 class Solution:
     def findSubsequences(self, nums:list[int]) -> list[List[int]]:
         ans = set()
