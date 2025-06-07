@@ -26,6 +26,7 @@ input           output
 6               Yes
 '''
 #Answer
+
 N = int(input())
 for i in range(N):
     A = int(input())
