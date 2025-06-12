@@ -32,3 +32,9 @@ for i in range(N):
         print("YES")
     else:
         print("NO")
+
+# another way
+N = int(input())
+for i in range(N):
+    A = int(input())
+    print("YES" if A >= 80 else "NO")
