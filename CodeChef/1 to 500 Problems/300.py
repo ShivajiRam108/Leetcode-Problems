@@ -31,3 +31,4 @@ N = int(input())
 for i in range(N):
     X = int(input())
     print(X - 10)
+    
