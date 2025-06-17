@@ -30,3 +30,10 @@ N = int(input())
 for i in range(N):
     A = int(input())
     print(A - (A // 5))
+
+
+# Another way
+N = int(input())
+for i in range(N):
+    X = int(input())
+    
