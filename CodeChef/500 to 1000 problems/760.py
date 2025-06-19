@@ -28,3 +28,4 @@ for i in range(N):
     for i in range(1, X + 1):
         res *= i
     print(res)
+
