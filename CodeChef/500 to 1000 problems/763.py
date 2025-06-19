@@ -36,8 +36,8 @@ for i in range(N):
     S = 0
     A = X // 7
     S += A
-    C = A % 7 
-    if (C <= 2):
+    C = X % 7 
+    if (C >= 2):
         S += 1
     print(S)
 
