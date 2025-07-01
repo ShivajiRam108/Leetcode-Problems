@@ -41,3 +41,4 @@ for i in range(N):
         print(500)
     else:
         print(2000)
+
