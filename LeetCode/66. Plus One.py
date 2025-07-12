@@ -17,3 +17,18 @@ class Solution:
         return res
 x = Solution()
 print(x.plusOne([1,2,3,4]))
+
+#  (Or)
+
+class Solution:
+    def plusOne(self, digits: list[int]) -> list[int]:
+        s = ''
+        for i in digits:
+            s += str(i)
+        x = int(s) + 1
+        res = []
+        for i in str(x):
+            res.append(int(i))
+        return res 
+x = Solution()
+print(x.plusOne([1,2,3,4]))
