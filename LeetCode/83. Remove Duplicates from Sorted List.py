@@ -14,3 +14,9 @@ class Solution:
             else:
                 res = res.next
         return head
+    
+x = Solution()
+print(x.deleteDuplicates(ListNode(1, ListNode(1, ListNode(2)))))  # Output: 1 -> 2
+print(x.deleteDuplicates(ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))))  # Output: 1 -> 2 -> 3
+print(x.deleteDuplicates(ListNode(1, ListNode(2, ListNode(3)))))  # Output: 1 -> 2 -> 3
+print(x.deleteDuplicates(ListNode(1, ListNode(1, ListNode(1,ListNode(2,ListNode(3,ListNode(3))))))))  # Output: 1 -> 2 -> 3
