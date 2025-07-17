@@ -1,13 +1,13 @@
-# class Solution:
-#     def findMaxConsecutiveOnes(self, nums: list[int]) -> int:
-#          # (or)
-#         l, zeros = 0, 0
-#         for r, n in enumerate(nums):
-#             zeros += n == 0
-#             if zeros > 0:
-#                 zeros -= nums[l] == 0
-#                 l += 1
-#         return r - l +1
+class Solution:
+    def findMaxConsecutiveOnes(self, nums: list[int]) -> int:
+         # (or)
+        l, zeros = 0, 0
+        for r, n in enumerate(nums):
+            zeros += n == 0
+            if zeros > 0:
+                zeros -= nums[l] == 0
+                l += 1
+        return r - l +1
 
         # (Or)
 class Solution:
