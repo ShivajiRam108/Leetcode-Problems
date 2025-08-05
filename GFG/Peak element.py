@@ -12,4 +12,4 @@ class Solution:
 x = Solution()
 print(x.peakElement([1, 2, 4, 5, 7, 8, 3]))  # 5 (value 8 is a peak)
 print(x.peakElement([1, 2, 4, 5, 7, 8, 3]))        # 5 (value 8 is a peak)
-print(x.peakElement([10, 20, 15, 2, 23, 90, 80]))  #  5 (value 8 is a peak)
+print(x.peakElement([10, 20, 15, 2, 23, 90, 80]))  #  5 (value 90 is a peak)
