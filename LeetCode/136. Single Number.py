@@ -1,12 +1,23 @@
 class Solution:
     def singleNumber(self, nums: list[int]) -> int:
-        res = 0
-        for i in range(len(nums)):
-            res = res ^ nums[i]
-        return res
+        res = 0 
+        for i in nums:
+            res ^= i 
+        return res 
+x = Solution()
+print(x.singleNumber([2,2,1]))  # 1 
+print(x.singleNumber([4,1,2,1,2]))  # 4 
 
-# # Create an instance of Solution
-# x = Solution()
 
-# # Call the method with the input list and print the result
-# print(x.singleNumber([1,2,1]))
+# (Or)
+
+class Solution:
+    def singleNumber(self, nums: list[int]) -> int:
+        res = 0 
+        for i in nums:
+            if nums.count(i) == 1:
+                res += i 
+        return res 
+x = Solution()
+print(x.singleNumber([2,2,1]))  # 1 
+print(x.singleNumber([4,1,2,1,2]))  # 4 
